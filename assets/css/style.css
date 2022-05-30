@@ -661,10 +661,13 @@ section {
 .about .content ul li {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
 }
 .about .content ul li:first-child {
-  margin-top: 35px;
+  margin-top: 20px;
+}
+.about .content ul li:last-child {
+  margin-bottom: 20px;
 }
 .about .content ul i {
   background: #fff;
