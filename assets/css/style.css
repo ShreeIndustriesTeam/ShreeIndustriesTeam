@@ -1050,6 +1050,24 @@ section {
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
+
+.portfolio button{
+  color:white;
+  transition-duration: 0.4s;
+  background-color:rgba(0, 145, 255, 0.981);
+  font-weight: 700;
+  font-size:12px;
+  padding:5px 5px;
+  border-radius: 12px;
+  /* margin-bottom: 20px; */
+  /* float:right; */
+}
+
+.portfolio button:hover{
+  background-color:rgba(0, 34, 255, 0.981);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .portfolio-details .portfolio-info ul {
   list-style: none;
   padding: 0;
